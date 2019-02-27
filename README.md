@@ -5,6 +5,7 @@
 
 ## Outside Sources used
 [DOMPDF](https://github.com/dompdf/dompdf)
+
 [Public Domain Lobster Image](http://www.freestockphotos.biz/stockphoto/10677)
 
 ## The 3 Unique Inputs used
