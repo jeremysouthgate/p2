@@ -1,7 +1,7 @@
 <?php
 
 ################################################################################
-#   A SCRIPT TO GENERATE A BUSINESS LETTER PDF
+#   A SCRIPT TO GENERATE A BUSINESS LETTER PDF                                 #
 ################################################################################
 
 // Include the DOMPDF Class
