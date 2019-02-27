@@ -14,7 +14,9 @@ main
     font-family: proxima-nova;
     width: 800px;
     height: auto;
-    background: linear-gradient(beige, tan);
+    background: rgba(250, 240, 230, .86);
+    background-image: url("../lobster.png");
+    background-blend-mode: screen;
     border-radius: 10px;
     margin: 100px auto 100px auto;
     padding: 100px;
