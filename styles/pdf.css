@@ -1,0 +1,36 @@
+/* Remove Browser-default margin and padding */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for result.php */
+body
+{
+    padding: 1in;
+    font-size: 12pt;
+}
+    main
+    {
+        position: absolute;
+        top: 0;
+    }
+    span
+    {
+        display: block;
+    }
+
+
+/* Center the Subject Line */
+#subject
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Wrap long words in message */
+#message
+{
+    word-wrap: break-word;
+}

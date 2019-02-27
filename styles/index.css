@@ -1,0 +1,117 @@
+/* Remove Browser-default margin and padding */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style for index.php */
+
+main
+{
+    font-family: proxima-nova;
+    width: 800px;
+    height: auto;
+    background: linear-gradient(beige, tan);
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+    padding: 100px;
+}
+
+
+    /* The Page Header */
+
+    #title
+    {
+        font-size: 25pt;
+        text-align: center;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+        #title a
+        {
+            color: black;
+            text-decoration: none;
+        }
+
+
+    /* Style for All Inputs */
+
+    input, select
+    {
+        height: 35px;
+        font-size: 15px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 10px;
+    }
+        input
+        {
+            width: calc(100% - 10px);
+        }
+        select
+        {
+            width: calc(100%);
+        }
+
+    .address_input, #letter_body
+    {
+        text-align: center;
+    }
+
+
+    /* Style for Address Inputs only */
+
+    #sender, #receiver
+    {
+        width: 375px;
+        position: relative;
+        float: left;
+    }
+        #receiver
+        {
+            margin-left: 50px;
+        }
+        #sender input
+        {
+            box-shadow: 1px 0px 5px rgba(150, 50, 50, 1);
+        }
+        #receiver input
+        {
+            box-shadow: 1px 0px 5px rgba(50, 50, 150, 1);
+        }
+
+
+    /* Style for Text Area */
+
+    textarea
+    {
+        resize: vertical;
+        width: calc(100% - 20px);
+        min-height: 100px;
+        max-height: 1000px;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+
+    /* Style for Submit Button */
+
+    input[type=submit]
+    {
+        background: #DEDEDE;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+        input[type=submit]:hover
+        {
+            background: white;
+        }
