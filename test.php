@@ -18,7 +18,7 @@ $dompdf = new Dompdf();
 $dompdf->set_option('defaultFont', 'Times');
 
 // Set HTML
-$dompdf->loadHtml($html);
+$dompdf->loadHtml("Good Morning.");
 
 // Set paper size and orientation
 $dompdf->setPaper('A4', 'portrait');
