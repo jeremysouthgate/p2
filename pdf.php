@@ -190,3 +190,4 @@ function make_pdf($html, $subject)
     // Print Out PDF
     $dompdf->stream("$subject.pdf", array("Attachment" => false));
 }
+?>
