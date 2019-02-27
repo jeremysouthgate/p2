@@ -89,7 +89,7 @@ if ($_POST)
 
 
     // Compose the HTML (w/ CSS) that is printed to the PDF
-    $css = "<link rel='stylesheet' href='./styles/pdf.css'/>";
+    $css = "<link rel='stylesheet' href='./styles/pdf_gen.css'/>";
     $html = "
         <html>
         <head>
@@ -144,7 +144,7 @@ if ($_POST)
     ";
 
     // Compose the PDF using the HTML
-    make_pdf($html, $subject);
+    make_pdf($html, $subject, $font);
 
 }
 
@@ -171,7 +171,7 @@ function keep_textarea_linebreaks($message)
 
 
 // Construct the PDF with DOMPDF
-function make_pdf($html, $subject)
+function make_pdf($html, $subject, $font)
 {
     // Initiate DOMPDF
     $dompdf = new Dompdf();
@@ -187,6 +187,9 @@ function make_pdf($html, $subject)
 
     // Render the HTML as PDF
     $dompdf->render();
+
+    // Add Page Numbers
+    $dompdf->getCanvas()->page_text(72, 768, "Page {PAGE_NUM} of {PAGE_COUNT}", $font, 10, array(0, 0, 0));
 
     // Print Out PDF
     $dompdf->stream("$subject.pdf", array("Attachment" => false));

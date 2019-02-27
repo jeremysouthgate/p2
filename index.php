@@ -14,7 +14,7 @@
 <head>
 
     <!-- HTML Required Tags -->
-    <title>Business Letter Generator</title>
+    <title>Business Letter Composer</title>
     <meta charset="utf-8"/>
 
     <!-- Adobe Fonts -->
