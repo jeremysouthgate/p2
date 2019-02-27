@@ -4,18 +4,17 @@
 
 
 ## Outside Sources used
-DOMPDF
-[https://github.com/dompdf/dompdf](https://github.com/dompdf/dompdf)
+[DOMPDF](https://github.com/dompdf/dompdf)
 
 
 ## The 3 Unique Inputs used
-+ Text Fields
-+ Textarea Field
-+ Dropdown Select Fields
++ 16 Text Fields
++ 1 Textarea Field
++ 2 Dropdown/Select Fields
 
 
 ## Any Classes used
-n/a
+Using the third-party DOMPDF class.
 
 
 ## Code Style Divergences
