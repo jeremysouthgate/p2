@@ -91,7 +91,7 @@ if ($_POST)
     // Compose the HTML (w/ CSS) that is printed to the PDF
     $css = "<link rel='stylesheet' href='./styles/pdf.css'/>";
     $html = "
-        <html>
+        <html lang='en-us'>
         <head>
 
             <!-- HTML Required Tags -->
