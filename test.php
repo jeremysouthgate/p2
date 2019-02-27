@@ -22,4 +22,5 @@ $dompdf->render();
 // Output the generated PDF to Browser
 $dompdf->stream();
 
-?>
+header("Content-type: Application/PDF");
+header("Content-disposition: inline; filename=test.pdf");
