@@ -122,7 +122,7 @@
 
             <!-- The Letter Body -->
             <div id='letter_body'>
-                
+
                 <!-- The Letter Date -->
                 <label for='date'>Date</label><br>
                 <input id='date' type='text' name='date' maxlength="50"/>
@@ -142,13 +142,13 @@
                 <!-- The Letter Closer -->
                 <label for='closer'>Closer</label><br>
                 <select id='closer' name='closer'>
-                    <option value=''></option>
                     <option value='Sincerely'>Sincerely</option>
                     <option value='All the best'>All the best</option>
                     <option value='Best'>Best</option>
                     <option value='Best regards'>Best regards</option>
                     <option value='With warmest regards'>With warmest regards</option>
                     <option value='Yours sincerely'>Yours sincerely</option>
+                    <option value=''>&nbsp;</option>
                 </select>
 
                 <!-- The Letter Signature -->

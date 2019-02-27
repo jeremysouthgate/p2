@@ -1,4 +1,5 @@
 <?php
+
 ################################################################################
 #   A SCRIPT TO GENERATE A BUSINESS LETTER PDF
 ################################################################################
@@ -48,7 +49,7 @@ if ($_POST)
     $signature = $_POST['signature'];
 
 
-    // Punctuation (If: city/state/zip or closer)
+    // Punctuation
 
     // Include a Comma between City & State of Sender
     if($sender_city && $sender_state)
@@ -87,7 +88,7 @@ if ($_POST)
     }
 
 
-    // Printable HTML w/ CSS
+    // Compose the HTML (w/ CSS) that is printed to the PDF
     $css = "<link rel='stylesheet' href='./styles/pdf.css'/>";
     $html = "
         <html>
@@ -142,7 +143,7 @@ if ($_POST)
         </html>
     ";
 
-    // Compose the PDF
+    // Compose the PDF using the HTML
     make_pdf($html, $subject);
 
 }
