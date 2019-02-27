@@ -87,6 +87,13 @@ main
         }
 
 
+    /* Style for Letter Body only */
+    #letter_body input, #letter_body select, textarea
+    {
+        box-shadow: 1px 0px 5px gray;
+    }
+
+
     /* Style for Text Area */
 
     textarea
