@@ -7,7 +7,7 @@
 require_once "./library/dompdf/autoload.inc.php";
 
 // reference the Dompdf namespace
-//use Dompdf\Dompdf;
+use Dompdf\Dompdf;
 
 // instantiate and use the dompdf class
 $dompdf = new Dompdf();
