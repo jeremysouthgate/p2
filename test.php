@@ -4,8 +4,12 @@
 ################################################################################
 
 // Include the DOMPDF Class
-require_once './library/dompdf/autoload.inc.php';
-use Dompdf\Dompdf;
+require_once './library/dompdf/lib/html5lib/Parser.php';
+require_once './library/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php';
+require_once './library/dompdf/lib/php-svg-lib/src/autoload.php';
+require_once './library/dompdf/src/Autoloader.php';
+Dompdf\Autoloader::register();
+use Library\Dompdf\Dompdf;
 
 // Initiate DOMPDF
 $dompdf = new Dompdf();
