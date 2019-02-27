@@ -4,7 +4,7 @@
 ################################################################################
 
 // include autoloader
-require_once './library/dompdf/autoload.inc.php';
+require_once $_SERVER['DOCUMENT_ROOT']."/library/dompdf/autoload.inc.php";
 
 // reference the Dompdf namespace
 use Dompdf\Dompdf;
@@ -21,6 +21,3 @@ $dompdf->render();
 
 // Output the generated PDF to Browser
 $dompdf->stream();
-
-header("Content-type: Application/PDF");
-header("Content-disposition: inline; filename=test.pdf");
