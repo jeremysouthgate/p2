@@ -14,7 +14,7 @@
 <head>
 
     <!-- HTML Required Tags -->
-    <title>Business Letter Composer</title>
+    <title>Business Letter PDF Composer</title>
     <meta charset="utf-8"/>
 
     <!-- Adobe Fonts -->
@@ -30,7 +30,7 @@
     <main>
 
         <!-- Page Title Header -->
-        <h1 id='title'><a href=''>Business Letter Generator</a></h1>
+        <h1 id='title'><a href=''>Business Letter PDF Composer</a></h1>
 
 
         <!-- The User Interface -->
@@ -169,7 +169,7 @@
 
 
             <!-- Submit Button / Make the PDF -->
-            <input type='submit' name='submit' value='Make PDF'/>
+            <input type='submit' name='submit' value='Compose PDF'/>
 
         </form>
 
