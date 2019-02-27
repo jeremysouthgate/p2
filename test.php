@@ -9,7 +9,7 @@ require_once './library/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php';
 require_once './library/dompdf/lib/php-svg-lib/src/autoload.php';
 require_once './library/dompdf/src/Autoloader.php';
 Dompdf\Autoloader::register();
-use Library\Dompdf\Dompdf;
+use Dompdf\Dompdf;
 
 // Initiate DOMPDF
 $dompdf = new Dompdf();
